@@ -14,7 +14,7 @@ public class TC_LoginTest_001 extends BaseClass
 {
 
 	@Test
-	public void loginTest() throws IOException 
+	public void loginTest() throws IOException,  InterruptedException
 	{
 			
 		logger.info("URL is opened");
@@ -27,6 +27,10 @@ public class TC_LoginTest_001 extends BaseClass
 		logger.info("Entered password");
 		
 		lp.clickSubmit();
+		
+		logger.info("Clicked Submit button");
+		
+		Thread.sleep(3000);
 		
 		if(driver.getTitle().equals("Guru99 Bank Manager HomePage"))
 		{
