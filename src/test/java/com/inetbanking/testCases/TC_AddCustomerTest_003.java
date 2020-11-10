@@ -45,7 +45,7 @@ public class TC_AddCustomerTest_003 extends BaseClass
 		addcust.custpassword("abcdef");
 		addcust.custsubmit();
 		
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		
 		logger.info("validation started....");
 		
