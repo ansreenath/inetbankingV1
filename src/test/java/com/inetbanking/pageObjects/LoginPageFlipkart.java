@@ -39,11 +39,11 @@ public class LoginPageFlipkart {
 	@CacheLookup
 	WebElement btnLoginFlipkart;
 	
-	@FindBy(xpath="(//div[@class='_39M2dM JB4AMj']/input)[1]")
+	@FindBy(xpath="//input[@class='_2IX_2- VJZDxU']")
 	@CacheLookup
 	WebElement txtUserName1;
 	
-	@FindBy(xpath="(//div[@class='_39M2dM JB4AMj']/input)[2]")
+	@FindBy(xpath="//input[@class='_2IX_2- _3mctLh VJZDxU']")
 	@CacheLookup
 	WebElement txtPassword1;
 	
